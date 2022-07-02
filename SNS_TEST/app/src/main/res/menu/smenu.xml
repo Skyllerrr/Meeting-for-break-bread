@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fontFamily="@font/chosungs"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab1"
+        android:title="밥먹으러가기"
+        android:fontFamily="@font/chosungs"
+        android:enabled="true"
+        android:icon="@drawable/baseline_rice_bowl_black_24dp"/>
+    <item
+        android:fontFamily="@font/chosungs"
+        android:id="@+id/tab2"
+        android:icon="@drawable/baseline_room_black_24dp"
+        android:title="지도보기"/>
+
+
+    <item
+        android:fontFamily="@font/chosungs"
+        android:id="@+id/tab4"
+        android:icon="@drawable/baseline_manage_accounts_black_24dp"
+        android:title="프로필">
+    </item>
+
+</menu>

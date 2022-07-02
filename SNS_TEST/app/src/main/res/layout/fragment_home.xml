@@ -1,0 +1,564 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundlogo"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:background="@color/cardview_light_background"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/zzazzangmyun" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="흥부반점"
+                        android:textSize="34sp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="쟁반짜장맛집" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:id="@+id/rating1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:stepSize="0.5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="113dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/imagebutton1"
+                        android:layout_width="105dp"
+                        android:layout_height="73dp"
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/buttonlogo2"
+                        android:fontFamily="@font/chosungs"
+                        android:text="같이 밥먹기"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:background="@color/cardview_light_background"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/kookbab" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="명장"
+                        android:textSize="34sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="국밥충맛집" />
+
+                    <RatingBar
+                        android:id="@+id/rating2"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        android:rating="4"
+                        android:stepSize="0.5"  />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="113dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/imagebutton2"
+                        android:layout_width="105dp"
+                        android:layout_height="73dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/buttonlogo2"
+                        android:text="같이 밥먹기"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:background="@color/cardview_light_background"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/submill" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="서브밀"
+                        android:textSize="34sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="브리또 맛집" />
+
+                    <RatingBar
+                        android:id="@+id/rating3"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:stepSize="0.5"  />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="113dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton3"
+                        android:layout_width="105dp"
+                        android:layout_height="73dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/buttonlogo2"
+                        android:fontFamily="@font/chosungs"
+                        android:text="같이 밥먹기"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:background="@color/cardview_light_background"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/moyaymoya" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="모야모야"
+                        android:textSize="34sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="덮밥맛집" />
+
+                    <RatingBar
+                        android:id="@+id/rating4"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:stepSize="0.5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="113dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton4"
+                        android:layout_width="105dp"
+                        android:layout_height="73dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/buttonlogo2"
+                        android:fontFamily="@font/chosungs"
+                        android:text="같이 밥먹기"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:background="@color/cardview_light_background"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/cyunhoji" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="천호지"
+                        android:textSize="34sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="오리고기맛집" />
+
+                    <RatingBar
+                        android:id="@+id/rating5"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:stepSize="0.5"  />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="113dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton5"
+                        android:layout_width="105dp"
+                        android:layout_height="73dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/buttonlogo2"
+                        android:fontFamily="@font/chosungs"
+                        android:text="같이 밥먹기"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:background="@color/cardview_light_background"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/star" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="별이네 식당"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="갈비탕맛집" />
+
+                    <RatingBar
+                        android:id="@+id/rating6"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:stepSize="0.5"  />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="113dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton6"
+                        android:layout_width="105dp"
+                        android:layout_height="73dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/buttonlogo2"
+                        android:fontFamily="@font/chosungs"
+                        android:text="같이 밥먹기"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:background="@color/cardview_light_background"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/maratang" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="조가연마라탕"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="마라탕집" />
+
+                    <RatingBar
+                        android:id="@+id/rating7"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:stepSize="0.5"   />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="113dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton7"
+                        android:layout_width="105dp"
+                        android:layout_height="73dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/buttonlogo2"
+                        android:fontFamily="@font/chosungs"
+                        android:text="같이 밥먹기"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:background="@color/cardview_light_background"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/buanzib" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="부안집"
+                        android:textSize="34sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/chosungs"
+                        android:gravity="center"
+                        android:text="돈 많아야함!" />
+
+                    <RatingBar
+                        android:id="@+id/rating8"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:stepSize="0.5"  />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="113dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton8"
+                        android:layout_width="105dp"
+                        android:layout_height="73dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/buttonlogo2"
+                        android:fontFamily="@font/chosungs"
+                        android:text="같이 밥먹기"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

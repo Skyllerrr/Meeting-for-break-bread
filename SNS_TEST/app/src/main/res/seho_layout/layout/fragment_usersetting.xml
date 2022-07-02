@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_invi"
+        >
+
+        <ImageView
+            android:id="@+id/profileImg"
+            android:layout_width="271dp"
+            android:layout_height="202dp"
+            android:layout_gravity="center"
+            android:src="@drawable/maratang" />
+
+
+
+        <Button
+            android:fontFamily="@font/chosungs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="프로필 사진 바꾸기"
+            android:id="@+id/changebutton"/>
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:fontFamily="@font/chosungs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이메일"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/chosungs"
+                android:hint="닉네임"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:fontFamily="@font/chosungs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="닉네임"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/chosungs"
+                android:hint="이메일"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+        <Button
+            android:fontFamily="@font/chosungs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="닉네임바꾸기"
+            android:id="@+id/writebutton"
+            />
+
+
+        <LinearLayout
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/chosungs"
+            android:layout_gravity="center"
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="로그아웃"/>
+    </LinearLayout>
+
+</LinearLayout>
